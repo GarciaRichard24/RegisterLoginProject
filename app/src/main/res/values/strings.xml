@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RegisterLogin</string>
+    
+    <string-array name="status">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Widowed</item>
+        <item>Divorced</item>
+    </string-array>
+</resources>

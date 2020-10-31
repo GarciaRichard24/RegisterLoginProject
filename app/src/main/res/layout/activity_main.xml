@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30sp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="BSIT 3 LOGIN"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/username1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/custom_icon_person"
+            android:background="@drawable/customize_input"
+            android:drawablePadding="12dp"
+            android:paddingLeft="12dp"
+            android:hint="Username"/>
+
+        <EditText
+            android:id="@+id/password1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="12dp"
+            android:drawablePadding="12dp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/custom_icon_lock"
+            android:background="@drawable/customize_input"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/green"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do you have an account yet?"
+            android:gravity="center"/>
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Register"
+        android:textSize="19sp"
+        android:textColor="@color/white"
+        android:background="@color/orange"
+        android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
